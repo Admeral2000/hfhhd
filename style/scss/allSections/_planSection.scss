@@ -1,0 +1,82 @@
+.plan-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan-container>h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.plan-container>p {
+    width: 719px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.plan-list {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.plan-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.plan-item+.plan-item {
+    margin-top: 49px;
+}
+
+.plan-item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.plan-info>h4 {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+}
+
+.plan-info>p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.plan-section-button {
+    padding: 8px 16px;
+    margin-top: 48px;
+    background: #00BAFC;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.plan-section-button:hover {
+    transition:0.4s;
+    background: #0707e1;
+    cursor: pointer;
+}

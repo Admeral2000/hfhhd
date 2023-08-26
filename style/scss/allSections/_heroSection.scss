@@ -1,0 +1,111 @@
+
+.header-container {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 60px;
+    padding-bottom: 8px;
+    background: #FFFFFF;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 341.89px;
+    gap: 32px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.nav-item>a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;   
+}
+
+.nav-item>a:hover {
+    transition: 0.5s;
+    color: rgb(4, 6, 146);
+    text-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.user-phone {
+    transition: color 1s;
+    letter-spacing: 2px;
+    margin-left: 24px;
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.user-phone:hover { 
+    transition: 0.5s;
+    color:rgb(202, 252, 167);
+    background-color: #0707e1;
+    transform: skewX(-20deg)skewY(-5deg);
+    width: 17%;
+}
+
+/* <<<< MAIN >>>> */
+
+.section-buisness {
+    padding-top: 153px;
+    padding-bottom: 97px;
+}
+
+.section-first-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.busines-info {
+    width: 470px;
+    height: 224px;
+}
+
+.busines-info>h2 {
+    width: 470px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.busines-info>p {
+    width: 465px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.busines-info>a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+} 
+
+.busines-info>a:hover {
+    transition:0.4s;
+    background: #0707e1;
+    cursor: pointer;
+}

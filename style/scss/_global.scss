@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 1400px;
+    padding: 0 100px;
+    margin: 0 auto;
+}
